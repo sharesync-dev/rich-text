@@ -1,12 +1,12 @@
 {
-  "name": "@shaxpir/rich-text",
+  "name": "@sharesync/rich-text",
   "version": "5.0.2",
   "description": "OT type for rich text",
   "author": "Jason Chen <jhchen7@gmail.com>",
-  "homepage": "https://github.com/shaxpir/rich-text",
+  "homepage": "https://github.com/sharesync-dev/rich-text",
   "main": "index.js",
   "dependencies": {
-    "@shaxpir/quill-delta": "^6.1.1"
+    "@sharesync/quill-delta": "^6.1.1"
   },
   "devDependencies": {
     "chai": "^4.2.0",
@@ -23,12 +23,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:shaxpir/rich-text.git"
+    "url": "git@github.com:sharesync-dev/rich-text.git"
   },
   "keywords": [
     "rich text",
     "ot",
     "operational transform",
     "sharejs"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

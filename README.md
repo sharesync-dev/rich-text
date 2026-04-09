@@ -1,10 +1,10 @@
 # Rich Text OT Type [![Build Status](https://travis-ci.org/ottypes/rich-text.svg?branch=master)](https://travis-ci.org/ottypes/rich-text)
 
-## Shaxpir: Why fork
+## ShareSync: Why fork
 
 This fork is based on the excellent work in the [Reedsy Fork](https://github.com/reedsy/rich-text) of the same repo.
 
-The reason we're not forking-the-fork, but rather building our own fork is that at Shaxpir we have slightly different needs.
+The reason we're not forking-the-fork, but rather building our own fork is that at ShareSync we have slightly different needs.
 
 We don't need to attach arbitrary metadata to Delta docs (because we already embed those Delta docs into deeply-nested
 `Json1` objects representing books, chapters, etc, which have their own metadata) so we don't need to use the same

@@ -1,4 +1,4 @@
-const Delta = require("@shaxpir/quill-delta");
+const Delta = require("@sharesync/quill-delta");
 var richText = require('../lib/type').type;
 var expect = require('chai').expect;
 
